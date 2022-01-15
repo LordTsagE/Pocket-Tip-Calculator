@@ -7,11 +7,11 @@
 
 #Write your code below this line 👇
 print("Welcome to the tip calculator.")
-total_bill = input("What was the total bill?")
+total_bill = input("What was the total bill? $")
 itb = float(total_bill)
-percentage_tip = input("What percentage tip would you like to give?")
+percentage_tip = input("What percentage tip would you like to give? 10, 12, 15 (Please do not add %) ")
 ipt = float(percentage_tip)
-number_ppl= input("How many people to split the bill?")
+number_ppl= input("How many people to split the bill? ")
 inp = float(number_ppl)
 p = (itb * ipt/100)
 total_to_pay = (itb + p)
