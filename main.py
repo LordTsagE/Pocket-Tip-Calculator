@@ -17,4 +17,5 @@ p = (itb * ipt/100)
 total_to_pay = (itb + p)
 amount_per_person = total_to_pay/inp
 app = round(amount_per_person, 2)
+app = "{:.2f}".format(amount_per_person)
 print(f"Each person should pay ${app}")
